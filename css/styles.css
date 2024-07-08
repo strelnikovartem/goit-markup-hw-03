@@ -112,6 +112,12 @@ gap: 40px;
         color: #434455;
 }
 
+.container-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
 .hero {
 background-color: #2e2f42;
 }
@@ -120,8 +126,9 @@ background-color: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+    align-items: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -132,6 +139,8 @@ background-color: #2e2f42;
         color: #fff;
         background: #4d5ae5;
         cursor: pointer;
+        padding: 16px 32px;
+        border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -148,11 +157,12 @@ background-color: #2e2f42;
 }
 
 .features-list {
-    
+    display: flex;
+    gap: 24px;
 }
 
 .features-item {
-
+width: calc ((100% - 3 * 24px) / 4);
 }
 
 
@@ -189,6 +199,7 @@ background-color: #2e2f42;
 
 .team-list {
         background-color: #FFFFFF;
+        display: flex;
 }
 
 .team-item {
