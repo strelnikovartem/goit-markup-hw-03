@@ -169,7 +169,6 @@ padding: 188px;
 }
 
 .features {
-
 }
 
 .features-list {
@@ -201,6 +200,7 @@ width: calc((100% - 3 *2 4px) / 4);
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 156px;
 }
 
 .team-title {
@@ -223,6 +223,9 @@ width: calc((100% - 3 *2 4px) / 4);
 .team-item {
         background-color: #FFFFFF;
         width: calc((100% - 3 * 24px) / 4);
+        border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px 0px;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);               background: #fff;
 }
 
 .team-image {
@@ -248,6 +251,7 @@ width: calc((100% - 3 *2 4px) / 4);
 }
 
 .portfolio {
+        padding: 120px;
 
 }
 
@@ -263,12 +267,14 @@ width: calc((100% - 3 *2 4px) / 4);
 
 .portfolio-list {
         display: flex;
-                gap: 24px;
+                gap: 48px 24px;
                 flex-wrap: wrap;
 
 }
 
 .portfolio-item {
+        border: 1px solid #e7e9fc;
+        background: #fff;
 
 }
 
@@ -300,6 +306,7 @@ width: calc((100% - 3 *2 4px) / 4);
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #4d5ae5;
+            padding: 100px 0;
 }
 
 .footer-logo-accent {
@@ -309,6 +316,7 @@ width: calc((100% - 3 *2 4px) / 4);
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #f4f4fd;
+            padding: 100px 0;
 }
 
 .footer-text {
@@ -317,6 +325,8 @@ width: calc((100% - 3 *2 4px) / 4);
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #f4f4fd;
+            padding: 16px;
+            max-width: 264px;
 }
 
 
